@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  Lab_13.cpp
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(30): warning C4244: =: преобразование "double" в "char", возможна потеря данных
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(80): warning C4244: аргумент: преобразование "double" в "char", возможна потеря данных
+  Lab_13.vcxproj -> D:\Univ\OAiP\Visual projects\Lab_13\x64\Debug\Lab_13.exe

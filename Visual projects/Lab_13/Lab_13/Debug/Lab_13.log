@@ -1,0 +1,7 @@
+﻿  Lab_13.cpp
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(52): warning C4244: =: преобразование "double" в "char", возможна потеря данных
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(83): warning C4244: аргумент: преобразование "double" в "char", возможна потеря данных
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(114): warning C4018: <: несоответствие типов со знаком и без знака
+d:\univ\oaip\visual projects\lab_13\lab_13\lab_13.cpp(148): warning C4244: аргумент: преобразование "double" в "char", возможна потеря данных
+  Lab_13.vcxproj -> D:\Univ\OAiP\Visual projects\Lab_13\Debug\Lab_13.exe

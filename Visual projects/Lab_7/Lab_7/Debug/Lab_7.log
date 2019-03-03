@@ -1,0 +1,4 @@
+﻿  Lab_7.cpp
+d:\projects\visual projects\lab_7\lab_7\lab_7.cpp(14): warning C4101: posit: неиспользованная локальная переменная
+d:\projects\visual projects\lab_7\lab_7\lab_7.cpp(15): warning C4101: word_len: неиспользованная локальная переменная
+  Lab_7.vcxproj -> D:\Projects\Visual projects\Lab_7\Debug\Lab_7.exe

@@ -1,0 +1,63 @@
+//---------------------------------------------------------------------------
+#include <math.h>
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+ Edit1 -> Text="0,1";
+ Edit2 -> Text="1";
+ Edit3-> Text="0,1";
+ Edit4-> Text="3";
+ Memo1 -> Clear();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+//создание и воод пременых
+int k, n;
+int fct, fct_;
+float a,b,h,x,r,Y;
+double summ;
+a=StrToFloat(Edit1->Text);
+b=StrToFloat(Edit2->Text);
+h=StrToFloat(Edit3->Text);
+n=StrToFloat(Edit4->Text);
+//Общие вычисления
+        for (x=b; x<=b; x+=h)
+        {
+        Y=(exp(x)-exp(-x))/2.;
+        for (k=n; k>=0; k--)
+                 {
+                  fct_=1;
+                  for (fct=1; fct<=2*k+1; fct++)
+                        {
+                        fct_*=fct;
+                        Memo1->Lines->Add(FloatToStr(fct_));
+                        }
+
+               r=pow(x,2.*k+1)/fct_;
+               summ+=r;
+                }
+        }
+        Memo1->Lines->Add(FloatToStr(summ));
+        Memo1->Lines->Add(FloatToStr(Y));
+
+
+}
+//---------------------------------------------------------------------------
+
+
+
+

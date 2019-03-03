@@ -1,0 +1,5 @@
+﻿  Xtra_lab.cpp
+d:\univ\oaip\visual projects\xtra_lab\xtra_lab\xtra_lab.cpp(45): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+d:\univ\oaip\visual projects\xtra_lab\xtra_lab\xtra_lab.cpp(51): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+d:\univ\oaip\visual projects\xtra_lab\xtra_lab\xtra_lab.cpp(10): warning C4101: a: неиспользованная локальная переменная
+  Xtra_lab.vcxproj -> D:\Univ\OAiP\Visual projects\Xtra_lab\Debug\Xtra_lab.exe
